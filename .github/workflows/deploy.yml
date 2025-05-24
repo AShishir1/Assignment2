@@ -1,5 +1,10 @@
+name: deploy app
+on: push
+
 jobs:
   test:
+    runs-on: ubuntu-latest
+
     steps:
-      - name: 24f2000044@ds.study.iitm.ac.in
-        run: echo "Hello, world!"
+       - name: 24f2000044@ds.study.iitm.ac.in
+         run: echo "Hello, world!"
